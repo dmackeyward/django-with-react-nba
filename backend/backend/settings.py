@@ -113,7 +113,7 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
     # Tell Django where to look for React's static files (css, js)
-    BASE_DIR / 'build/static'
+    BASE_DIR / 'build/static',
     BASE_DIR / 'build'
 ]
 
